@@ -1,3 +1,10 @@
+var bandera=false;
 function validar() {
-    alert($("#user").val())
+     if (bandera){
+    console.log("validación completa");
+   }
+}
+function correctCaptcha(){
+     console.log("captcha resuelto correctamente");
+     bandera=true;
 }
